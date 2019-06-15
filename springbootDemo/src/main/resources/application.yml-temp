@@ -1,0 +1,10 @@
+
+server:
+  port: 8080
+
+print: ${random.int}
+
+msg: Hello TY ${print} !
+logging:
+  level: info
+#debug: true
